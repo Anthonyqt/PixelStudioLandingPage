@@ -1,0 +1,301 @@
+body{
+    background-color: #4B4D52;
+}
+.nav{
+   justify-content: center;
+   align-items: center;
+}
+.navlog{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.navsign{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+#font{
+    font-family: inherit;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.title{
+    font-size: 1.5em;
+    margin: 1.2% ;
+    font-weight: bold;
+    position: absolute;
+}
+
+ul li a {
+    margin: 0 30px 0 30px;
+}
+
+.button {
+    border-radius: 100px;
+    background: #0C0B0B;
+    padding: 10px 10px 14px 10px;
+    text-align: center;
+    width: 80%;
+}
+
+.intro{
+    float: right;
+     width: 40em;
+     height: 45em;
+     margin: 3% 100px 0 0;
+     font-family: 'Poppins', sans-serif;
+     border-radius: 10px;
+     background: rgba(192, 198, 212, 0.40);
+     padding-top: 50px;
+     text-align: center;
+     padding-left: 50px ;
+     padding-right: 40px;
+     letter-spacing: 1.4px;
+     
+ }
+ 
+ .firstp{
+     font-size: 2rem;
+     letter-spacing: -1px;
+     
+ }
+ .secondp {
+     font-size: 2rem;
+     font-weight: bold;
+     margin-top: -10px; 
+ }
+ 
+ .thirdp {
+     margin-top: 30px;
+     font-size: 1.2em;
+     margin-right: 10%;
+     padding-left: 10%;
+ }
+ 
+ .fourthp {
+     margin-top: 30px;
+     font-size: 1.2em;
+     margin-right: 10%;
+     padding-left: 10%;
+ }
+ 
+ .getstarted{
+     margin-top: 40px;
+     background: #AAB0BC;
+     color: #4B4D52;
+     padding: 8px 50px 8px 50px;
+     box-shadow: 4px 8px 24px 0px rgba(0, 0, 0, 0.25);
+     border: none;
+     border-radius: 10%;
+     line-height: normal;
+     font-size: 25px;
+ }
+
+ /* Service */
+
+
+ .grid{
+    margin-top: 120px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+
+}
+.table{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.service{
+ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 100px;
+    font-size: 3rem;
+
+}
+.ser{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card img{
+    border-radius: 30px;
+}
+
+.card{
+    margin-top: 120px ;
+    padding: 15px 15px 15px 15px;
+    border-radius: 30px;
+    background: rgba(90, 109, 128, 0.80);
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.25);
+    width: 22rem;
+    height: 32rem;
+    font-family: 'Poppins', sans-serif;  
+    color: white;
+}
+#cardtitle{
+    text-align: center;
+    font-weight: bold;
+}
+.card img{
+   filter: brightness(0.70);
+}
+
+
+
+/* SERVICE PAGE 2 */
+.spt2{
+    width: 100%;
+    
+}
+
+.content1{
+    margin: 0 14vw 0 14vw;
+
+}
+.content{
+    margin: 0 14vw 0 14vw;
+}
+video{
+border-radius: 30px;
+width: 400px;
+
+}
+
+.gridservice{
+
+    margin-top: 200px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+ .content1 img{
+    padding: 0 20px 20px 0;
+    width: 280px;
+    height: 360px;
+    border-radius: 30px;
+}
+
+/* Contact */
+
+.contact{
+    font-family: 'Poppins', sans-serif;  
+    width: 100%;
+ 
+}
+.contactcontainer{
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-top: 190px ;
+    color: white;
+
+}
+
+.firstcontainer{
+    background: rgba(90, 109, 128, 0.75);
+    width: 625px;
+    height: 503px;
+    font-size: 1.2rem;
+    padding:30px;
+}
+.firstcontainer ul {
+    margin-top: 50px;
+}
+.firstcontainer ul li{
+    margin-top: 50px;
+}
+
+.secondcontainer{
+    width: 660px;
+    height: 670px;
+    background: rgba(173, 177, 187, 0.4);
+    padding:30px 60px 0 60px;   
+}
+.secondcontainer p{
+    margin-top: 5px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.contacttitle{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 60px;
+    font-size: 3rem;
+}
+
+.con{
+    color: white;
+    font-weight: bold;
+}
+input{
+    font-family: 'Poppins', sans-serif;  
+    padding: 10px 220px 10px 10px;
+    color: black;
+}
+.submit{
+    background: #AAB0BC;
+    color: #4B4D52;
+    border: none;
+    padding: 9px 50px 9px 50px; 
+    line-height: normal;
+    margin-top: 7px ;
+}
+
+/*BLOG */
+div .blogtitle{
+    margin-top: 20px;
+    width: 100%;
+}
+.blogtitle{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.blogcontainer{
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-top: 120px ;
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+}
+.blogcontext{
+    background: rgba(90, 109, 128, 0.75);
+    width: 1200px;
+    height: 663px;
+    font-size: 1.2rem;
+    padding:30px 150px 0 150px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
