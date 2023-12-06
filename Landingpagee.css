@@ -156,41 +156,14 @@ ul li a {
 
 
 /* SERVICE PAGE 2 */
-.spt2{
-    width: 100%;
-    
+.spt2cont{
+    background: linear-gradient(180deg, rgba(32, 67, 102, 0.00) 0%, rgba(32, 67, 102, 0.22) 19.27%, rgba(32, 67, 102, 0.53) 53.12%, rgba(32, 67, 102, 0.94) 63.54%, #204366 95.83%, #204366 100%);
+    width: 80%;
+    height: 800px;
+   position: absolute;
 }
 
-.content1{
-    margin: 0 14vw 0 14vw;
 
-}
-.content{
-    margin: 0 14vw 0 14vw;
-}
-video{
-border-radius: 30px;
-width: 400px;
-
-}
-
-.gridservice{
-
-    margin-top: 200px;
-    position: absolute;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-
-}
- .content1 img{
-    padding: 0 20px 20px 0;
-    width: 280px;
-    height: 360px;
-    border-radius: 30px;
-}
 
 /* Contact */
 
